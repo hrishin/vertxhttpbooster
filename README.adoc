@@ -1,8 +1,9 @@
-= REST API Level 0 - Eclipse Vert.x Boostr
+= REST API Level 0 - Eclipse Vert.x Booster
+
 
 IMPORTANT: This booster requires Java 8 JDK or greater and Maven 3.3.x or greater.
 
-IMPORTANT: As part of the process of creating this booster, launch.openshift.io set up a project with a CI/CD deployment of this booster. You can see the status of this deployment in your Single-node OpenShift Cluster or OpenShift Online Web Console. 
+IMPORTANT: As part of the process of creating this booster, launch.openshift.io set up a project with a CI/CD deployment of this booster. You can see the status of this deployment in your Single-node OpenShift Cluster or OpenShift Online Web Console.
 
 == Runing the Booster Locally
 
@@ -37,7 +38,7 @@ To update your booster:
 . Stop your booster.
 +
 NOTE: To stop your running booster in a Linux or macOS terminal, use `CTRL+C`. In a Windows command prompt, you can use `CTRL + Break(pause)`.
- 
+
 . Make your change (e.g. edit `src/main/resources/webroot/index.html`).
 . Restart your booster.
 . Confirm your change appears.
