@@ -136,7 +136,6 @@
               <enricher>
                 <excludes>
                   <exclude>f8-maven-scm</exclude>
-                  <exclude>f8-expose</exclude>
                 </excludes>
                 <config>
                   <vertx-health-check>
